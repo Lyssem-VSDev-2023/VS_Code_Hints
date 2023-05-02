@@ -23,7 +23,7 @@ Go to the following menu:
 - Type you code under the "language".json
 
 ```json
-"Print String to console": {
+    "Print String to console": {
 		"prefix": "log_String",
 		"body": [
 			"let $1 = \"$2\";",
@@ -40,11 +40,15 @@ Go to the following menu:
 		"description": "Log Declaration output to console"
 	},
 ```
-![Snippet Menu](/Images/Snippet1.png)
+![Snippet Menu](/Images/Snippet_1.png)
 
-<!---------------------Create a Code Snippet----------------------------->
+<!---------------------Add to Source Code Control (Github ----------------------------->
 
 # 2. Add to Source Code Control (Github)
 
+* Open Source Control
 
 ![Snippet Menu](/Images/SourceCode_1.png)
+* Select **Publish to GitHub** Button
+* Confim the proposed Name (Git Hub need to be logged in)
+* Confirm teh selected Folders to be synched
